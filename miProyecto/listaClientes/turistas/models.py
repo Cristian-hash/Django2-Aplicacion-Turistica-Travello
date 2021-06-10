@@ -4,6 +4,7 @@ from django.db import models
 #Creando el modelo 
 
 class Turista(models.Model):
-    nombre=models.TextField()
+    nombres=models.TextField()
     apellidos=models.TextField()
-    dni=models.TextField()
+    nacionalidad=models.TextField()
+#creacion de un objeto por el shell
