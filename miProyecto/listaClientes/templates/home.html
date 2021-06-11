@@ -1,1 +1,14 @@
-<h1>Bienvenido a Travello</h1>
+{% extends 'base.html'%}
+
+{% block content %}
+<h1>Bienvenido a {{name}} , el mejor lugar para escojer hoteles</h1>
+
+
+<form action="registro">
+Ingresa Numero Seguro Social : <input type="text" name ="numSS"><br>
+<input type="submit">
+
+</form>
+{% endblock %}
+
+

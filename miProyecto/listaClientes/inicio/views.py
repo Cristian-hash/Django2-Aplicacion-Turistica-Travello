@@ -4,4 +4,9 @@ from django.http import HttpResponse
 # Create your views here.
 
 def mi_Bienvenida(request,*args,**kwargs):
-    return render(request,'home.html')
+
+    #creacion de diccionario 
+    return render(request,'home.html',{'name':'Travello'})
+
+def registro(request):
+    return render(request,'ingreso.html')
