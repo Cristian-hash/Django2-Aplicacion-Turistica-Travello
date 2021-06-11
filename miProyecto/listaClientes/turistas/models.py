@@ -4,8 +4,9 @@ from django.db import models
 #Creando el modelo 
 
 class Turista(models.Model):
-    nombres=models.TextField()
-    apellidos=models.TextField()
+    #campos obligatorios
+    nombres=models.TextField(blank=False)
+    apellidos=models.TextField(blank=False)
 
     #no nos importa de que pais venga
     nacionalidad=models.TextField()
