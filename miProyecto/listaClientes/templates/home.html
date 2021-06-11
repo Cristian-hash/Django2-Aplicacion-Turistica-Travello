@@ -3,10 +3,14 @@
 {% block content %}
 <h1>Bienvenido a {{name}} , el mejor lugar para escojer hoteles</h1>
 
+<!--no queremos que aparesca el numero SS en el URL,usar token-->
 
-<form action="registro">
+<form action='registro' method='post'>
+
+    { % csrf_token %}
+
 Ingresa Numero Seguro Social : <input type="text" name ="numSS"><br>
-<input type="submit">
+<input type='submit'>
 
 </form>
 {% endblock %}

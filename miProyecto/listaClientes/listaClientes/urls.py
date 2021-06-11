@@ -22,6 +22,8 @@ from inicio.views import registro
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('bienvenida/', mi_Bienvenida, name='Pagina de Inicio'),
-    path('registro/', registro, name='registro'),
+    #
+
+    path('registro/',registro, name='registro'),
 
 ]
