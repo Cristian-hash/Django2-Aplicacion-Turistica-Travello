@@ -1,0 +1,6 @@
+listaClientes/turistas/migrations/0005_rename_vacunadocovid_turista_vacunado_covid.py
+listaClientes/turistas/migrations/__pycache__/0002_rename_dni_turista_nacionalidad.cpython-39.pyc
+listaClientes/turistas/migrations/__pycache__/0003_rename_nombre_turista_nombres.cpython-39.pyc
+listaClientes/turistas/migrations/__pycache__/0004_turista_vacunadocovid.cpython-39.pyc
+listaClientes/turistas/migrations/__pycache__/0006_alter_turista_vacunado_covid.cpython-39.pyc
+listaClientes/turistas/migrations/__pycache__/0007_alter_turista_vacunado_covid.cpython-39.pyc
