@@ -21,6 +21,6 @@ from . import views
 urlpatterns = [
     
     #1:08:31
-    path("",views.index,name="index")
+    path("travello/",views.index,name="index")
 
 ]
